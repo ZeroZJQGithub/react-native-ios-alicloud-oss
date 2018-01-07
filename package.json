@@ -1,0 +1,26 @@
+{
+  "name": "react-native-ios-alicloud-oss",
+  "version": "1.0.2",
+  "dependencies": {},
+  "description": "upload file to aliyun oss only on ios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroZJQGithub/react-native-ios-alicloud-oss.git"
+  },
+  "keywords": [
+    "aliyun",
+    "ios",
+    "alicloud",
+    "react-native"
+  ],
+  "author": "zero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZeroZJQGithub/react-native-ios-alicloud-oss/issues"
+  },
+  "homepage": "https://github.com/ZeroZJQGithub/react-native-ios-alicloud-oss#readme"
+}

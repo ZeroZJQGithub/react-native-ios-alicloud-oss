@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE9235720027958000CEEA3 /* RCTAliCloudOSS.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9235620027958000CEEA3 /* RCTAliCloudOSS.m */; };
+		DAE9235820027958000CEEA3 /* RCTAliCloudOSS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAE9235520027958000CEEA3 /* RCTAliCloudOSS.h */; };
+		DAE9238120027AB6000CEEA3 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238020027AB6000CEEA3 /* libresolv.tbd */; };
+		DAE9238320027ABF000CEEA3 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238220027ABF000CEEA3 /* libresolv.9.tbd */; };
+		DAE9238520027AC8000CEEA3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238420027AC8000CEEA3 /* SystemConfiguration.framework */; };
+		DAE9238720027AD2000CEEA3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238620027AD2000CEEA3 /* CoreTelephony.framework */; };
+		DAE923C420027B03000CEEA3 /* aos_crc64.c in Sources */ = {isa = PBXBuildFile; fileRef = DAE9238A20027B03000CEEA3 /* aos_crc64.c */; };
+		DAE923C520027B03000CEEA3 /* NSMutableData+OSS_CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9238E20027B03000CEEA3 /* NSMutableData+OSS_CRC.m */; };
+		DAE923C620027B03000CEEA3 /* OSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9239020027B03000CEEA3 /* OSSClient.m */; };
+		DAE923C720027B03000CEEA3 /* OSSCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9239220027B03000CEEA3 /* OSSCompat.m */; };
+		DAE923C820027B03000CEEA3 /* OSSDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9239720027B03000CEEA3 /* OSSDDLog.m */; };
+		DAE923C920027B03000CEEA3 /* OSSFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9239920027B03000CEEA3 /* OSSFileLogger.m */; };
+		DAE923CA20027B03000CEEA3 /* OSSNSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9239C20027B03000CEEA3 /* OSSNSLogger.m */; };
+		DAE923CB20027B03000CEEA3 /* OSSReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9239E20027B03000CEEA3 /* OSSReachability.m */; };
+		DAE923CC20027B03000CEEA3 /* OSSHttpdns.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923A020027B03000CEEA3 /* OSSHttpdns.m */; };
+		DAE923CD20027B03000CEEA3 /* OSSInputStreamHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923A220027B03000CEEA3 /* OSSInputStreamHelper.m */; };
+		DAE923CE20027B03000CEEA3 /* OSSIPv6Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923A520027B03000CEEA3 /* OSSIPv6Adapter.m */; };
+		DAE923CF20027B03000CEEA3 /* OSSIPv6PrefixResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923A720027B03000CEEA3 /* OSSIPv6PrefixResolver.m */; };
+		DAE923D020027B03000CEEA3 /* OSSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923A920027B03000CEEA3 /* OSSReachabilityManager.m */; };
+		DAE923D120027B03000CEEA3 /* OSSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923AB20027B03000CEEA3 /* OSSLog.m */; };
+		DAE923D220027B03000CEEA3 /* OSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923AD20027B03000CEEA3 /* OSSModel.m */; };
+		DAE923D320027B03000CEEA3 /* OSSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923AF20027B03000CEEA3 /* OSSNetworking.m */; };
+		DAE923D420027B03000CEEA3 /* OSSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923B320027B03000CEEA3 /* OSSBolts.m */; };
+		DAE923D520027B03000CEEA3 /* OSSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923B520027B03000CEEA3 /* OSSCancellationToken.m */; };
+		DAE923D620027B03000CEEA3 /* OSSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923B720027B03000CEEA3 /* OSSCancellationTokenRegistration.m */; };
+		DAE923D720027B03000CEEA3 /* OSSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923B920027B03000CEEA3 /* OSSCancellationTokenSource.m */; };
+		DAE923D820027B03000CEEA3 /* OSSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923BB20027B03000CEEA3 /* OSSExecutor.m */; };
+		DAE923D920027B03000CEEA3 /* OSSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923BD20027B03000CEEA3 /* OSSTask.m */; };
+		DAE923DA20027B03000CEEA3 /* OSSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923BF20027B03000CEEA3 /* OSSTaskCompletionSource.m */; };
+		DAE923DB20027B03000CEEA3 /* OSSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923C120027B03000CEEA3 /* OSSUtil.m */; };
+		DAE923DC20027B03000CEEA3 /* OSSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE923C320027B03000CEEA3 /* OSSXMLDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAE9235020027958000CEEA3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DAE9235820027958000CEEA3 /* RCTAliCloudOSS.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAE9235220027958000CEEA3 /* libRCTAliCloudOSS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTAliCloudOSS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE9235520027958000CEEA3 /* RCTAliCloudOSS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAliCloudOSS.h; sourceTree = "<group>"; };
+		DAE9235620027958000CEEA3 /* RCTAliCloudOSS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAliCloudOSS.m; sourceTree = "<group>"; };
+		DAE9238020027AB6000CEEA3 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		DAE9238220027ABF000CEEA3 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		DAE9238420027AC8000CEEA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DAE9238620027AD2000CEEA3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DAE9238920027B03000CEEA3 /* AliyunOSSiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunOSSiOS.h; sourceTree = "<group>"; };
+		DAE9238A20027B03000CEEA3 /* aos_crc64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aos_crc64.c; sourceTree = "<group>"; };
+		DAE9238B20027B03000CEEA3 /* aos_crc64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aos_crc64.h; sourceTree = "<group>"; };
+		DAE9238C20027B03000CEEA3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE9238D20027B03000CEEA3 /* NSMutableData+OSS_CRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+OSS_CRC.h"; sourceTree = "<group>"; };
+		DAE9238E20027B03000CEEA3 /* NSMutableData+OSS_CRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+OSS_CRC.m"; sourceTree = "<group>"; };
+		DAE9238F20027B03000CEEA3 /* OSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSClient.h; sourceTree = "<group>"; };
+		DAE9239020027B03000CEEA3 /* OSSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSClient.m; sourceTree = "<group>"; };
+		DAE9239120027B03000CEEA3 /* OSSCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCompat.h; sourceTree = "<group>"; };
+		DAE9239220027B03000CEEA3 /* OSSCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCompat.m; sourceTree = "<group>"; };
+		DAE9239320027B03000CEEA3 /* OSSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSDefine.h; sourceTree = "<group>"; };
+		DAE9239520027B03000CEEA3 /* OSSCocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCocoaLumberjack.h; sourceTree = "<group>"; };
+		DAE9239620027B03000CEEA3 /* OSSDDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSDDLog.h; sourceTree = "<group>"; };
+		DAE9239720027B03000CEEA3 /* OSSDDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSDDLog.m; sourceTree = "<group>"; };
+		DAE9239820027B03000CEEA3 /* OSSFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSFileLogger.h; sourceTree = "<group>"; };
+		DAE9239920027B03000CEEA3 /* OSSFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSFileLogger.m; sourceTree = "<group>"; };
+		DAE9239A20027B03000CEEA3 /* OSSLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLogMacros.h; sourceTree = "<group>"; };
+		DAE9239B20027B03000CEEA3 /* OSSNSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSNSLogger.h; sourceTree = "<group>"; };
+		DAE9239C20027B03000CEEA3 /* OSSNSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSNSLogger.m; sourceTree = "<group>"; };
+		DAE9239D20027B03000CEEA3 /* OSSReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSReachability.h; sourceTree = "<group>"; };
+		DAE9239E20027B03000CEEA3 /* OSSReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSReachability.m; sourceTree = "<group>"; };
+		DAE9239F20027B03000CEEA3 /* OSSHttpdns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSHttpdns.h; sourceTree = "<group>"; };
+		DAE923A020027B03000CEEA3 /* OSSHttpdns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSHttpdns.m; sourceTree = "<group>"; };
+		DAE923A120027B03000CEEA3 /* OSSInputStreamHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSInputStreamHelper.h; sourceTree = "<group>"; };
+		DAE923A220027B03000CEEA3 /* OSSInputStreamHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSInputStreamHelper.m; sourceTree = "<group>"; };
+		DAE923A420027B03000CEEA3 /* OSSIPv6Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSIPv6Adapter.h; sourceTree = "<group>"; };
+		DAE923A520027B03000CEEA3 /* OSSIPv6Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSIPv6Adapter.m; sourceTree = "<group>"; };
+		DAE923A620027B03000CEEA3 /* OSSIPv6PrefixResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSIPv6PrefixResolver.h; sourceTree = "<group>"; };
+		DAE923A720027B03000CEEA3 /* OSSIPv6PrefixResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSIPv6PrefixResolver.m; sourceTree = "<group>"; };
+		DAE923A820027B03000CEEA3 /* OSSReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSReachabilityManager.h; sourceTree = "<group>"; };
+		DAE923A920027B03000CEEA3 /* OSSReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSReachabilityManager.m; sourceTree = "<group>"; };
+		DAE923AA20027B03000CEEA3 /* OSSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLog.h; sourceTree = "<group>"; };
+		DAE923AB20027B03000CEEA3 /* OSSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSLog.m; sourceTree = "<group>"; };
+		DAE923AC20027B03000CEEA3 /* OSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSModel.h; sourceTree = "<group>"; };
+		DAE923AD20027B03000CEEA3 /* OSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSModel.m; sourceTree = "<group>"; };
+		DAE923AE20027B03000CEEA3 /* OSSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSNetworking.h; sourceTree = "<group>"; };
+		DAE923AF20027B03000CEEA3 /* OSSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSNetworking.m; sourceTree = "<group>"; };
+		DAE923B020027B03000CEEA3 /* OSSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSService.h; sourceTree = "<group>"; };
+		DAE923B220027B03000CEEA3 /* OSSBolts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSBolts.h; sourceTree = "<group>"; };
+		DAE923B320027B03000CEEA3 /* OSSBolts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSBolts.m; sourceTree = "<group>"; };
+		DAE923B420027B03000CEEA3 /* OSSCancellationToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationToken.h; sourceTree = "<group>"; };
+		DAE923B520027B03000CEEA3 /* OSSCancellationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationToken.m; sourceTree = "<group>"; };
+		DAE923B620027B03000CEEA3 /* OSSCancellationTokenRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationTokenRegistration.h; sourceTree = "<group>"; };
+		DAE923B720027B03000CEEA3 /* OSSCancellationTokenRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationTokenRegistration.m; sourceTree = "<group>"; };
+		DAE923B820027B03000CEEA3 /* OSSCancellationTokenSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSCancellationTokenSource.h; sourceTree = "<group>"; };
+		DAE923B920027B03000CEEA3 /* OSSCancellationTokenSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSCancellationTokenSource.m; sourceTree = "<group>"; };
+		DAE923BA20027B03000CEEA3 /* OSSExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSExecutor.h; sourceTree = "<group>"; };
+		DAE923BB20027B03000CEEA3 /* OSSExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSExecutor.m; sourceTree = "<group>"; };
+		DAE923BC20027B03000CEEA3 /* OSSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTask.h; sourceTree = "<group>"; };
+		DAE923BD20027B03000CEEA3 /* OSSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSTask.m; sourceTree = "<group>"; };
+		DAE923BE20027B03000CEEA3 /* OSSTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTaskCompletionSource.h; sourceTree = "<group>"; };
+		DAE923BF20027B03000CEEA3 /* OSSTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSTaskCompletionSource.m; sourceTree = "<group>"; };
+		DAE923C020027B03000CEEA3 /* OSSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSUtil.h; sourceTree = "<group>"; };
+		DAE923C120027B03000CEEA3 /* OSSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSUtil.m; sourceTree = "<group>"; };
+		DAE923C220027B03000CEEA3 /* OSSXMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSXMLDictionary.h; sourceTree = "<group>"; };
+		DAE923C320027B03000CEEA3 /* OSSXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSXMLDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE9234F20027958000CEEA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE9238720027AD2000CEEA3 /* CoreTelephony.framework in Frameworks */,
+				DAE9238520027AC8000CEEA3 /* SystemConfiguration.framework in Frameworks */,
+				DAE9238320027ABF000CEEA3 /* libresolv.9.tbd in Frameworks */,
+				DAE9238120027AB6000CEEA3 /* libresolv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE9234920027958000CEEA3 = {
+			isa = PBXGroup;
+			children = (
+				DAE9238820027B03000CEEA3 /* AliyunOSSSDK */,
+				DAE9235420027958000CEEA3 /* RCTAliCloudOSS */,
+				DAE9235320027958000CEEA3 /* Products */,
+				DAE9237F20027AB5000CEEA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE9235320027958000CEEA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9235220027958000CEEA3 /* libRCTAliCloudOSS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE9235420027958000CEEA3 /* RCTAliCloudOSS */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9235520027958000CEEA3 /* RCTAliCloudOSS.h */,
+				DAE9235620027958000CEEA3 /* RCTAliCloudOSS.m */,
+			);
+			path = RCTAliCloudOSS;
+			sourceTree = "<group>";
+		};
+		DAE9237F20027AB5000CEEA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9238620027AD2000CEEA3 /* CoreTelephony.framework */,
+				DAE9238420027AC8000CEEA3 /* SystemConfiguration.framework */,
+				DAE9238220027ABF000CEEA3 /* libresolv.9.tbd */,
+				DAE9238020027AB6000CEEA3 /* libresolv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE9238820027B03000CEEA3 /* AliyunOSSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9238920027B03000CEEA3 /* AliyunOSSiOS.h */,
+				DAE9238A20027B03000CEEA3 /* aos_crc64.c */,
+				DAE9238B20027B03000CEEA3 /* aos_crc64.h */,
+				DAE9238C20027B03000CEEA3 /* Info.plist */,
+				DAE9238D20027B03000CEEA3 /* NSMutableData+OSS_CRC.h */,
+				DAE9238E20027B03000CEEA3 /* NSMutableData+OSS_CRC.m */,
+				DAE9238F20027B03000CEEA3 /* OSSClient.h */,
+				DAE9239020027B03000CEEA3 /* OSSClient.m */,
+				DAE9239120027B03000CEEA3 /* OSSCompat.h */,
+				DAE9239220027B03000CEEA3 /* OSSCompat.m */,
+				DAE9239320027B03000CEEA3 /* OSSDefine.h */,
+				DAE9239420027B03000CEEA3 /* OSSFileLog */,
+				DAE9239F20027B03000CEEA3 /* OSSHttpdns.h */,
+				DAE923A020027B03000CEEA3 /* OSSHttpdns.m */,
+				DAE923A120027B03000CEEA3 /* OSSInputStreamHelper.h */,
+				DAE923A220027B03000CEEA3 /* OSSInputStreamHelper.m */,
+				DAE923A320027B03000CEEA3 /* OSSIPv6 */,
+				DAE923AA20027B03000CEEA3 /* OSSLog.h */,
+				DAE923AB20027B03000CEEA3 /* OSSLog.m */,
+				DAE923AC20027B03000CEEA3 /* OSSModel.h */,
+				DAE923AD20027B03000CEEA3 /* OSSModel.m */,
+				DAE923AE20027B03000CEEA3 /* OSSNetworking.h */,
+				DAE923AF20027B03000CEEA3 /* OSSNetworking.m */,
+				DAE923B020027B03000CEEA3 /* OSSService.h */,
+				DAE923B120027B03000CEEA3 /* OSSTask */,
+				DAE923C020027B03000CEEA3 /* OSSUtil.h */,
+				DAE923C120027B03000CEEA3 /* OSSUtil.m */,
+				DAE923C220027B03000CEEA3 /* OSSXMLDictionary.h */,
+				DAE923C320027B03000CEEA3 /* OSSXMLDictionary.m */,
+			);
+			path = AliyunOSSSDK;
+			sourceTree = "<group>";
+		};
+		DAE9239420027B03000CEEA3 /* OSSFileLog */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9239520027B03000CEEA3 /* OSSCocoaLumberjack.h */,
+				DAE9239620027B03000CEEA3 /* OSSDDLog.h */,
+				DAE9239720027B03000CEEA3 /* OSSDDLog.m */,
+				DAE9239820027B03000CEEA3 /* OSSFileLogger.h */,
+				DAE9239920027B03000CEEA3 /* OSSFileLogger.m */,
+				DAE9239A20027B03000CEEA3 /* OSSLogMacros.h */,
+				DAE9239B20027B03000CEEA3 /* OSSNSLogger.h */,
+				DAE9239C20027B03000CEEA3 /* OSSNSLogger.m */,
+				DAE9239D20027B03000CEEA3 /* OSSReachability.h */,
+				DAE9239E20027B03000CEEA3 /* OSSReachability.m */,
+			);
+			path = OSSFileLog;
+			sourceTree = "<group>";
+		};
+		DAE923A320027B03000CEEA3 /* OSSIPv6 */ = {
+			isa = PBXGroup;
+			children = (
+				DAE923A420027B03000CEEA3 /* OSSIPv6Adapter.h */,
+				DAE923A520027B03000CEEA3 /* OSSIPv6Adapter.m */,
+				DAE923A620027B03000CEEA3 /* OSSIPv6PrefixResolver.h */,
+				DAE923A720027B03000CEEA3 /* OSSIPv6PrefixResolver.m */,
+				DAE923A820027B03000CEEA3 /* OSSReachabilityManager.h */,
+				DAE923A920027B03000CEEA3 /* OSSReachabilityManager.m */,
+			);
+			path = OSSIPv6;
+			sourceTree = "<group>";
+		};
+		DAE923B120027B03000CEEA3 /* OSSTask */ = {
+			isa = PBXGroup;
+			children = (
+				DAE923B220027B03000CEEA3 /* OSSBolts.h */,
+				DAE923B320027B03000CEEA3 /* OSSBolts.m */,
+				DAE923B420027B03000CEEA3 /* OSSCancellationToken.h */,
+				DAE923B520027B03000CEEA3 /* OSSCancellationToken.m */,
+				DAE923B620027B03000CEEA3 /* OSSCancellationTokenRegistration.h */,
+				DAE923B720027B03000CEEA3 /* OSSCancellationTokenRegistration.m */,
+				DAE923B820027B03000CEEA3 /* OSSCancellationTokenSource.h */,
+				DAE923B920027B03000CEEA3 /* OSSCancellationTokenSource.m */,
+				DAE923BA20027B03000CEEA3 /* OSSExecutor.h */,
+				DAE923BB20027B03000CEEA3 /* OSSExecutor.m */,
+				DAE923BC20027B03000CEEA3 /* OSSTask.h */,
+				DAE923BD20027B03000CEEA3 /* OSSTask.m */,
+				DAE923BE20027B03000CEEA3 /* OSSTaskCompletionSource.h */,
+				DAE923BF20027B03000CEEA3 /* OSSTaskCompletionSource.m */,
+			);
+			path = OSSTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE9235120027958000CEEA3 /* RCTAliCloudOSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE9235B20027958000CEEA3 /* Build configuration list for PBXNativeTarget "RCTAliCloudOSS" */;
+			buildPhases = (
+				DAE9234E20027958000CEEA3 /* Sources */,
+				DAE9234F20027958000CEEA3 /* Frameworks */,
+				DAE9235020027958000CEEA3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTAliCloudOSS;
+			productName = RCTAliCloudOSS;
+			productReference = DAE9235220027958000CEEA3 /* libRCTAliCloudOSS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE9234A20027958000CEEA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Canzhijia;
+				TargetAttributes = {
+					DAE9235120027958000CEEA3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAE9234D20027958000CEEA3 /* Build configuration list for PBXProject "RCTAliCloudOSS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DAE9234920027958000CEEA3;
+			productRefGroup = DAE9235320027958000CEEA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE9235120027958000CEEA3 /* RCTAliCloudOSS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE9234E20027958000CEEA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE923D020027B03000CEEA3 /* OSSReachabilityManager.m in Sources */,
+				DAE923D120027B03000CEEA3 /* OSSLog.m in Sources */,
+				DAE923D420027B03000CEEA3 /* OSSBolts.m in Sources */,
+				DAE923C420027B03000CEEA3 /* aos_crc64.c in Sources */,
+				DAE923D920027B03000CEEA3 /* OSSTask.m in Sources */,
+				DAE923DB20027B03000CEEA3 /* OSSUtil.m in Sources */,
+				DAE9235720027958000CEEA3 /* RCTAliCloudOSS.m in Sources */,
+				DAE923CE20027B03000CEEA3 /* OSSIPv6Adapter.m in Sources */,
+				DAE923DA20027B03000CEEA3 /* OSSTaskCompletionSource.m in Sources */,
+				DAE923C720027B03000CEEA3 /* OSSCompat.m in Sources */,
+				DAE923CF20027B03000CEEA3 /* OSSIPv6PrefixResolver.m in Sources */,
+				DAE923DC20027B03000CEEA3 /* OSSXMLDictionary.m in Sources */,
+				DAE923C620027B03000CEEA3 /* OSSClient.m in Sources */,
+				DAE923C920027B03000CEEA3 /* OSSFileLogger.m in Sources */,
+				DAE923CC20027B03000CEEA3 /* OSSHttpdns.m in Sources */,
+				DAE923C820027B03000CEEA3 /* OSSDDLog.m in Sources */,
+				DAE923D520027B03000CEEA3 /* OSSCancellationToken.m in Sources */,
+				DAE923D320027B03000CEEA3 /* OSSNetworking.m in Sources */,
+				DAE923D220027B03000CEEA3 /* OSSModel.m in Sources */,
+				DAE923D620027B03000CEEA3 /* OSSCancellationTokenRegistration.m in Sources */,
+				DAE923CA20027B03000CEEA3 /* OSSNSLogger.m in Sources */,
+				DAE923CB20027B03000CEEA3 /* OSSReachability.m in Sources */,
+				DAE923C520027B03000CEEA3 /* NSMutableData+OSS_CRC.m in Sources */,
+				DAE923CD20027B03000CEEA3 /* OSSInputStreamHelper.m in Sources */,
+				DAE923D820027B03000CEEA3 /* OSSExecutor.m in Sources */,
+				DAE923D720027B03000CEEA3 /* OSSCancellationTokenSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DAE9235920027958000CEEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAE9235A20027958000CEEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE9235C20027958000CEEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AliyunOSSSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAE9235D20027958000CEEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AliyunOSSSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE9234D20027958000CEEA3 /* Build configuration list for PBXProject "RCTAliCloudOSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE9235920027958000CEEA3 /* Debug */,
+				DAE9235A20027958000CEEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE9235B20027958000CEEA3 /* Build configuration list for PBXNativeTarget "RCTAliCloudOSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE9235C20027958000CEEA3 /* Debug */,
+				DAE9235D20027958000CEEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE9234A20027958000CEEA3 /* Project object */;
+}
