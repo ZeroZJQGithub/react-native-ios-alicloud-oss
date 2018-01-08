@@ -72,7 +72,7 @@ const AliCloudOSS = {
     addEventListener(type, handler) {
         var listener;
         if (Platform.OS === 'ios') {
-            const Emitter = new NativeEventEmitter(NativeAliyunOSS);
+            const Emitter = new NativeEventEmitter(NativeAliCloudOSS);
             if (type === UPLOAD_EVENT) {
                 listener = Emitter.addListener(
                     'uploadProgress',
