@@ -15,6 +15,6 @@
 
 #import "RCTEventEmitter.h"
 
-@interface RCTAliCloudOSS : NSObject
+@interface RCTAliCloudOSS : RCTEventEmitter <RCTBridgeModule>
 
 @end
