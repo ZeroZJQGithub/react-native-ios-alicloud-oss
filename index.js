@@ -19,7 +19,7 @@ const _subscriptions = new Map();
 const AliCloudOSS = {
     //开启oss log
     enableOSSLog() {
-        NativeAliyunOSS.enableOSSLog();
+        NativeAliCloudOSS.enableOSSLog();
     },
 
     /*初始化ossclient，
@@ -27,14 +27,14 @@ const AliCloudOSS = {
     *
     */
     initWithKey(conf, EndPoint) {
-        NativeAliyunOSS.initWithKey(conf.AccessKey, conf.SecretKey, conf.SecretToken, EndPoint);
+        NativeAliCloudOSS.initWithKey(conf.AccessKey, conf.SecretKey, conf.SecretToken, EndPoint);
     },
     /*初始化ossclient，
     **通过签名字符串，此处采用的是服务端签名
     *
     */
     initWithSigner(AccessKey, Signature, EndPoint) {
-        NativeAliyunOSS.initWithSigner(AccessKey, Signature, EndPoint);
+        NativeAliCloudOSS.initWithSigner(AccessKey, Signature, EndPoint);
     },
 
     /*异步上传文件
@@ -44,7 +44,7 @@ const AliCloudOSS = {
     *updateDate:需要和签名中用到的时间一致
     */
     uploadObjectAsync(conf) {
-        return NativeAliyunOSS.uploadObjectAsync(
+        return NativeAliCloudOSS.uploadObjectAsync(
             conf.bucketName,
             conf.sourceFile,
             conf.ossFile,
@@ -57,7 +57,7 @@ const AliCloudOSS = {
     *updateDate:需要和签名中用到的时间一致
     */
     downloadObjectAsync(conf) {
-        return NativeAliyunOSS.downloadObjectAsync(
+        return NativeAliCloudOSS.downloadObjectAsync(
             conf.bucketName,
             conf.ossFile,
             conf.updateDate);
