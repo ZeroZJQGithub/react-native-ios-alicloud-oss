@@ -1,5 +1,6 @@
 /**
  * @flow
+ * changes 2018-01-14
  */
 'use strict';
 
@@ -17,6 +18,7 @@ const DOWNLOAD_EVENT = 'downloadProgress';
 const _subscriptions = new Map();
 
 const AliCloudOSS = {
+
     //开启oss log
     enableOSSLog() {
         NativeAliCloudOSS.enableOSSLog();
