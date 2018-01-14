@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		DAE9235720027958000CEEA3 /* RCTAliCloudOSS.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9235620027958000CEEA3 /* RCTAliCloudOSS.m */; };
 		DAE9235820027958000CEEA3 /* RCTAliCloudOSS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DAE9235520027958000CEEA3 /* RCTAliCloudOSS.h */; };
-		DAE9238120027AB6000CEEA3 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238020027AB6000CEEA3 /* libresolv.tbd */; };
-		DAE9238320027ABF000CEEA3 /* libresolv.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238220027ABF000CEEA3 /* libresolv.9.tbd */; };
-		DAE9238520027AC8000CEEA3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238420027AC8000CEEA3 /* SystemConfiguration.framework */; };
-		DAE9238720027AD2000CEEA3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9238620027AD2000CEEA3 /* CoreTelephony.framework */; };
 		DAE923C420027B03000CEEA3 /* aos_crc64.c in Sources */ = {isa = PBXBuildFile; fileRef = DAE9238A20027B03000CEEA3 /* aos_crc64.c */; };
 		DAE923C520027B03000CEEA3 /* NSMutableData+OSS_CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9238E20027B03000CEEA3 /* NSMutableData+OSS_CRC.m */; };
 		DAE923C620027B03000CEEA3 /* OSSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9239020027B03000CEEA3 /* OSSClient.m */; };
@@ -57,10 +53,6 @@
 		DAE9235220027958000CEEA3 /* libRCTAliCloudOSS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTAliCloudOSS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE9235520027958000CEEA3 /* RCTAliCloudOSS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTAliCloudOSS.h; sourceTree = "<group>"; };
 		DAE9235620027958000CEEA3 /* RCTAliCloudOSS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTAliCloudOSS.m; sourceTree = "<group>"; };
-		DAE9238020027AB6000CEEA3 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
-		DAE9238220027ABF000CEEA3 /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
-		DAE9238420027AC8000CEEA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		DAE9238620027AD2000CEEA3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		DAE9238920027B03000CEEA3 /* AliyunOSSiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunOSSiOS.h; sourceTree = "<group>"; };
 		DAE9238A20027B03000CEEA3 /* aos_crc64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aos_crc64.c; sourceTree = "<group>"; };
 		DAE9238B20027B03000CEEA3 /* aos_crc64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aos_crc64.h; sourceTree = "<group>"; };
@@ -124,10 +116,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE9238720027AD2000CEEA3 /* CoreTelephony.framework in Frameworks */,
-				DAE9238520027AC8000CEEA3 /* SystemConfiguration.framework in Frameworks */,
-				DAE9238320027ABF000CEEA3 /* libresolv.9.tbd in Frameworks */,
-				DAE9238120027AB6000CEEA3 /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,10 +152,6 @@
 		DAE9237F20027AB5000CEEA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAE9238620027AD2000CEEA3 /* CoreTelephony.framework */,
-				DAE9238420027AC8000CEEA3 /* SystemConfiguration.framework */,
-				DAE9238220027ABF000CEEA3 /* libresolv.9.tbd */,
-				DAE9238020027AB6000CEEA3 /* libresolv.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
